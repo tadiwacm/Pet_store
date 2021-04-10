@@ -1,0 +1,121 @@
+<doctype html>
+    <html lang =en>
+        <head>
+            <meta http-equiv="content-type" content="text/html" charset="utf-8">
+            <title>TuffPets.com</title>
+            <link href="mystyle.css" rel="stylesheet" type="text/css" media="screen">
+            
+            <script type="text/javascript">
+                /*Functions here*/
+                function storeText(inputID) {
+                    //check to see if the localStorage item already exists
+                    var userInput = localStorage.userInfo;
+                    //set it up for new data to be appended
+                    if(userInput!=null) userInput+=" ";
+                    else userInput="";
+                    //add the new data
+                    userInput += document.getElementById(inputID).value;
+                    //set the localStorage field with the updated data
+                    localStorage.userInfo = userInput;
+                    //write it to the page
+            document.getElementById("result").innerHTML = localStorage.userInfo+"  - Added!";
+                  
+}
+                function deleteItems(){
+                    localStorage.clear();
+                    window.location.href=window.location.href;
+                    
+                    
+                }
+            </script>
+        
+        </head>
+    
+        <body>
+            <div id="main">
+                <div id="header">
+                    
+                    <img id="logo" src="logo_transparent.png">
+                    
+                    <ul id="nav">
+                        <li><a href="home.html">Home</a></li>
+                         <li><a href="About%20Us.html">About</a></li>
+                         <li><a href="Products.html">Products</a></li>
+                         <li><a href="Fun%20facts.html">Fun Facts</a></li>
+                        
+                         <li><a href="Contact%20Us.html">Contact</a></li>
+                    
+                    </ul>
+                </div>
+            
+            </div>
+            
+             <div id="wishlist">
+            
+                <h1> Making your wishes come true </h1>
+                
+            
+           
+             <input  id="userText" type="text" placeholder="Write a wish."/> 
+             <input class="button" type="button" value="Save" onclick="storeText('userText')" />
+            <input class="button" type="button" value="Clear" onclick="deleteItems()" />
+
+            <div id="result">
+                <script type="text/javascript">
+                    if(localStorage.userInfo==null)         document.write("No item in wishlist");
+                    else                         document.write(localStorage.userInfo+ "  --Sucessfully Added");
+</script> 
+            </div>
+                  </div>
+            
+  
+            <div id="home-welcome">
+                <h1 id="welcome"> Welcome to the world of pets.</h1>
+                <img id="hw-background" src="group%20puppies.jpg">
+                
+                <div id="bp">
+                <p> Find everything you need for your pet.</p>
+                                        <img src="pa1.png">
+
+                <h3>Shop quality products only.</h3>
+                
+                <a href="Products.html">Start Shopping</a>
+            </div>
+        </div>
+            
+            <div id="videos">
+            
+                <h1> Check out these cute pets.</h1>
+                <video controls autoplay >
+                    <source src="DancingPuppy.mp4" type="video/mp4"> 
+                    <source src="DancingPuppy.ogv" type="video/ogg">
+                </video>
+                <video controls autoplay>
+                    <source src="TwoKitties.mp4" type="video/mp4"> 
+                    <source src="TwoKitties.ogv" type="video/ogg">
+                </video>
+                
+            
+            
+            </div>
+            
+
+        
+        </body>
+        <footer>
+        <div id="footer">
+                    <h2> Follow Us on social media</h2>
+                    <div id="imgs">
+                       <img id="facebook" src="facebook.png"> 
+                        <img id="instagram" src="instagram.png">
+                        <img id="twitter" src="twitter.png">
+                
+                </div>
+            
+            </div>
+        
+        </footer>
+        
+
+    </html>
+</doctype>

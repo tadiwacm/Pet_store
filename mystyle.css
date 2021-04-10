@@ -1,0 +1,527 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+}
+#logo{
+    float: left;
+    height: 90px;
+    width: 90px;
+    margin: 0px;
+    padding-left: 10px;
+    
+}
+
+/*Navigation bar*/
+#header{
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    
+}
+#main{
+    background-color: white;
+    height: 90px;
+    width: 100%;
+}
+#header ul{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    float: right;
+    background: pink;
+    
+}
+#header li{
+    list-style-type: none;
+    padding: 0px;
+    height 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+    
+    
+}
+#header li a{
+    color: black;
+    font-size: 20px;
+    font-family: "Trebuchet MS",Arial, Helvetica,sans-serif;
+    text-decoration: none;
+    line-height: 90px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+#header a:hover{
+    background-color: whitesmoke;
+}
+
+
+/*home welcome*/
+#hw-background{
+    height: 500px;
+    width: 100%
+}
+#welcome{
+    padding: 0px;
+    margin: 0px;
+    font-size: 90px;
+    width: 100%;
+    font-family:
+monospace;
+    text-align: center;
+    background-color: #f4d3;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: antiquewhite;
+    
+     
+}
+#bp{
+    display: block;
+    background-color: azure;
+}
+#bp p{
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    color: palevioletred;
+    border-color: antiquewhite;
+    border-width: 2px;
+    
+    
+}
+#bp img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#bp h3{
+  text-align: center;
+    margin: 5px;
+    font-size: 40px;
+    
+}
+#bp a{
+    display: block;
+    border-style: solid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5421;
+    text-align: center;
+    color: firebrick
+    
+    
+}
+#bp a:hover{
+    background-color: #ffe;
+    border-color: red;
+    
+}
+
+/*videos*/
+#videos h1{
+     text-align: center;
+    font-size: 60px;
+    margin: 0px;
+    color: yellowgreen;
+    border-color: antiquewhite;
+    border-width: 2px;
+    font-family: sans-serif;
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 6px;
+    margin-top: 20px;
+    
+}
+#videos video{
+    display: inline;
+    width: 45%;
+    margin: 10px;
+    height: 400px;;
+    
+}
+
+/*Wishlist*/
+#wishlist{
+    text-align: center;
+    font-size: 15px;
+    margin: 0px;
+    color: dark darkorange;
+    border-color: antiquewhite;
+    border-width: 2px;
+    font-family: serif;
+    border-style: double;
+    border-color: greenyellow;
+    border-width: 6px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#wishlist h1{
+    color: orangered;
+    font-family: cursive
+    
+}
+#userText {
+    width: 300px;
+    height: 45px;
+    font-size: 15px;
+    margin-top: 0px;
+    font-family: serif;
+}
+#result{
+    font-size: 23px;
+    font-family: monospace;
+    color: green;
+}
+.button{
+    width: 70px;
+    height: 45px;
+    color: black;
+    font-family: fantasy;
+    background-color: skyblue;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: bisque;
+}
+
+
+/* footer*/
+#footer{
+    background-color: aliceblue;
+
+    
+}
+#footer h2{
+    margin-top: 75px;
+    background-color: aliceblue;
+    text-align: center;
+}
+#footer img{
+    height: 60px;
+    margin: 10px;
+   
+    
+}
+#imgs{
+    
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    width: 250px;
+    background-color: aliceblue;
+ 
+}
+
+#imgs:hover{
+    background-color: plum;
+}
+
+/******ABOUT */
+
+/* info */
+#info{
+    border-style: solid;
+    
+}
+#info h1{
+    font-size: 50px;
+    text-align: center;
+    
+}
+#info p{
+    text-align: center;
+    
+    font-family: monospace;
+    font-size: 19px;
+    
+     display: block;
+  
+   
+}
+.caresspet{
+    height: 300px;
+    width: 30%;
+    margin: 10px;
+
+}
+
+#shop{
+     display: block;
+    border-style: solid;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5421;
+    text-align: center;
+    color: firebrick;
+    
+    
+}
+#shop:hover{
+    background-color: salmon;
+    border-color: red;
+    color: black;
+}
+
+
+
+/*PRODUCTS*/
+
+/*PI*/
+#PI h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    width: 100%;
+    color: firebrick;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 10px;
+
+}
+#food{
+    width: 100%;
+    border-style: solid;
+    border-color: darkcyan;
+}
+.pf{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    
+}
+.pf img{
+    height: 300px;
+    width: 300px;
+}
+.pf h2{
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    
+}
+
+.vm{
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+.vm:hover{
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+/* acces */
+
+#acces{
+  width: 100%;
+    border-style: solid;
+    border-color: darkcyan;
+    margin: 0px;
+}
+#acces h2{
+     font-size: 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-align: center;
+}
+#acces img{
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+   
+    
+}
+
+/*med*/
+#med{width: 100%;
+    border-style: solid;
+    border-color: darkcyan;
+    margin: 0;
+    margin-bottom: 100px;
+}
+#med h2{
+     font-size: 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-align: center;
+}
+#med img{
+    width: 30%;
+    height: 322px;
+    margin: 10px;
+}
+
+/** FUN  FACTS*/
+#fun-facts{
+    margin: 0px;
+    width: 100%;
+    border-style: dotted;
+    border-color: lemonchiffon;
+    border-width: 5px;
+    
+}
+
+
+#fun-facts h1{
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: blue;
+    border-style: dashed;
+    
+    
+}
+.ff{
+    width: 48%;
+    display: inline-block;
+}
+
+.ff img{
+    height: 500px;
+    width: 100%;
+    padding: 5px;
+}
+.ff p{
+    text-align: center;
+font-size: 20px;
+    font-family: monospace
+}
+
+
+/***Contact ***/
+/* contact*/
+#sub{
+   margin-top: 5px;
+    width: 180px;
+    height: 50px;
+    font-size:30px;
+    font-family: fantasy;
+    background-color: blanchedalmond;
+    color: darkgreen
+}
+
+#contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+   
+}
+.in{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 7px;
+    font-size: 15px;
+    
+}
+#contact h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: darkslateblue;
+    
+}
+
+#cf{
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: darkgreen
+    
+}
+
+
+
+/** gmap*//
+
+#gmap{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+     border-color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    
+}
+#gmap h2{
+    font-size: 50px;
+    font-family: monospace;
+    color: darkslateblue;
+    text-align: center;
+}
+#gmap_canvas{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+/** table **/
+
+#tafel{
+    width: 50%;
+    margin: 0px;
+    display: block;
+    align-content: center;
+   
+}
+
+
+table, th, td {
+  border: 0px solid ;
+  border-collapse: collapse;
+    padding: 0px;
+    
+}
+th, td {
+  padding: 15px;
+    font-family: sans-serif;
+}
+
+th{
+    background-color: pink
+}
+td{
+  background-color: lightyellow
+      
+}
+

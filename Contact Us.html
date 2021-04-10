@@ -1,0 +1,107 @@
+<doctype html>
+    <html lang="en">
+        <head>
+            <meta http-equiv="content-type" content="text/html" charset="utf-8">
+            <title>TuffPets.com</title>
+            <link href="mystyle.css" rel="stylesheet" type="text/css" media="screen">
+        
+        </head>
+    
+        <body>
+            <div id="main">
+                <div id="header">
+                    
+                    <img id="logo" src="logo_transparent.png">
+                    
+                    <ul id="nav">
+                        <li><a href="home.html">Home</a></li>
+                         <li><a href="About%20Us.html">About</a></li>
+                         <li><a href="Products.html">Products</a></li>
+                         <li><a href="Fun%20facts.html">Fun Facts</a></li>
+                        
+                         <li><a href="Contact%20Us.html">Contact</a></li>
+                    
+                    </ul>
+                </div>
+            
+            </div>
+            
+            
+            <div id="contact">
+            
+            <h1> Get in touch with us</h1>
+    <form action="#" name="contact_form" id="cf">
+		<label  for="first_name">First Name</label>
+		<input class="in" name="first_name" type="text" required placeholder="Enter your first name" autofocus/>
+		<br>
+		<label for="last_name">Last Name</label>
+		<input class="in" name="last_name" type="text" required placeholder="Enter your surname" autofocus/>
+		<br>
+		<label for="email">Email  </label>
+		<input class="in" name="email" type="email" required placeholder="your@domain.com" autofocus/>
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="60" rows="10" placeholder="Enter your message here ..." required > </textarea>
+		<br>
+        <script> 
+            function clickAlert(){
+                alert("Message sent!");
+                document.contact_form.submit();
+                document.contact_form.reset();
+            }
+        </script>
+        <input id="sub" type="submit" value="Submit" onclick="clickAlert()" >
+		
+	</form>	
+                
+        
+            
+            
+            
+            
+            </div>
+            
+            <div id="gmap">
+                <h2> Find us on google maps</h2>
+                
+               <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Canal%20Walk%20Shopping%20Centre,%205,%20Century%20Blvd,%20Cape%20Town,%208000&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+                    
+            
+            </div>
+            
+           
+              
+            
+<table id="tafel" style="margin-left: auto; margin-right: auto;">
+  <tr>
+    <th>Tel</th>
+    <th>Email</th>
+    <th>Address</th>
+  </tr>
+  <tr>
+    <td>021 222 5500</td>
+    <td>TuffPets@gmail.com</td>
+    <td>44 Regent Industria, North Hook, CPT, South Africa</td>
+  </tr>
+</table>
+           
+            
+ 
+        </body>
+        <footer>
+        <div id="footer">
+                    <h2> Follow Us on social media</h2>
+                    <div id="imgs">
+                       <img id="facebook" src="facebook.png"> 
+                        <img id="instagram" src="instagram.png">
+                        <img id="twitter" src="twitter.png">
+                
+                </div>
+            
+            </div>
+        
+        </footer>
+        
+
+    </html>
+</doctype>
